@@ -15,12 +15,12 @@
   <body>
     <div class="chat-container">
       <header class="chat-header">
-        <h1><i class="fas fa-smile"></i> ChatterPro</h1>
-        <a href="index.html" class="btn">Leave this Server</a>
+        <h1><i class="fas fa-comments"></i> ChatterPro</h1>
+        <a href="index.html" class="btn">Quit this Meeting</a>
       </header>
       <main class="chat-main">
         <div class="chat-sidebar">
-          <h3><i class="fas fa-comments"></i> Room Name: </h3>
+          <h3><i class="fas fa-comments"></i> Meeting Room: </h3>
           <h2 id="room-name"></h2>
           <h3><i class="fas fa-users"></i> Users Online: </h3>
           <ul id="users"></ul>
@@ -32,11 +32,11 @@
           <input
             id="msg"
             type="text"
-            placeholder="Enter your message"
+            placeholder="Type your text !!"
             required
             autocomplete="off"
           />
-          <button class="btn"><i class="fas fa-paper-plane"></i> Send Message</button>
+          <button class="btn"><i class="fas fa-paper-plane"></i> Send the Message</button>
         </form>
       </div>
     </div>
@@ -48,5 +48,12 @@
     ></script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="js/main.js"></script>
+
+    <footer>
+			<p class = "credits">Designed and Developed by Sonal Bera &nbsp; &nbsp;
+			
+        <a href="http://www.sonalbera.tech">sonalbera.tech</a></p>
+     
+		  </footer>
   </body>
 </html>

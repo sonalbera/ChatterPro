@@ -1,5 +1,7 @@
 # ChatterPro App
-Realtime chat app with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend with a custom UI
+
+Realtime chat application made with websockets using Node.js, Express and Socket.io with Vanilla JS on the frontend.
+Design and theme of the program is inspired from Whatsapp UI.
 
 ## Usage
 ```

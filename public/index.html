@@ -12,38 +12,45 @@
 		/>
 		<link rel="stylesheet" href="css/style.css" />
 		<title>ChatterPro App</title>
+
+	
 	</head>
-	<body>
+
+	
+	<body class="bg">
 		<div class="join-container">
 			<header class="join-header">
-				<h1><i class="fas fa-smile"></i> ChatterPro</h1>
+			<h1><i class="fas fa-comments"></i> ChatterPro</h1>
 			</header>
 			<main class="join-main">
 				<form action="chat.html">
 					<div class="form-control">
-						<label for="username">Username</label>
+						<label for="username">Enter a Nickname</label>
 						<input
 							type="text"
 							name="username"
 							id="username"
-							placeholder="Enter username..."
+							placeholder="Enter nickname..."
 							required
 						/>
 					</div>
 					<div class="form-control">
-						<label for="room">Room</label>
+						<label for="room">Choose a Meeting Room</label>
 						<select name="room" id="room">
-							<option value="JavaScript">Asia Server</option>
-							<option value="Python">Europe Server</option>
-							<option value="PHP">USA Server</option>
-							<option value="C#">Australia Server</option>
-							<option value="Ruby">Africa Server</option>
-							<option value="Java">Space Server</option>
+							<option value="Chat Room">Chat Room</option>
+							<option value="Business Room">Business Room</option>
+							<option value="Gaming Room">Gaming Room</option>
+							
 						</select>
 					</div>
 					<button type="submit" class="btn">Join The Chat</button>
 				</form>
 			</main>
 		</div>
+
+		<footer>
+			<p class = "credits">Designed and Developed by Sonal Bera &nbsp; &nbsp;
+			<a href="http://www.sonalbera.tech">sonalbera.tech</a></p>
+		  </footer>
 	</body>
 </html>
