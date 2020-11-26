@@ -11,3 +11,4 @@ npm run dev
 Go to localhost:3000
 ```
 
+More details on the app's build and running can be found on the Project Report file.
